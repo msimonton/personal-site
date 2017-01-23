@@ -1,0 +1,178 @@
+body {
+background-color: #2D2E2F;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+
+
+a {
+  color: #00B7FF;
+}
+
+/*.container-fluid  {
+  padding-top: 30px;
+  align-content: center;
+}*/
+
+#red {
+  background-color:rgba(255, 0, 0, 0.7);
+  height: 50px;
+  align-items: center;
+}
+
+#black {
+  background-color:#171717;
+  color: white;
+  height: 50px;
+  vertical-align: middle;
+}
+
+#black1 {
+  background-color: #171717;
+  color: white;
+  height: 900px;
+  vertical-align: middle;
+  overflow: hidden;
+  position: absolute;
+}
+
+h1  {
+  color: white;
+}
+
+h2  {
+  text-align: center;
+  margin-top: auto;
+}
+
+#jumbo  {
+  background-color: #171717;
+  height:200px;
+  width: 100%;
+}
+
+#left {
+  color: #171717;
+  height: 100%;
+  width: 40
+}
+
+#circle {
+  background-color: black;
+  border-radius: 50%;
+  width: 700px;
+  height: 700px;
+  margin:auto;
+  position: absolute;
+  margin: auto;
+  display:flex;
+  justify-content: center;
+}
+
+#leftcirc {
+  background-color: black;
+  border-radius: 50%;
+  width: 700px;
+  height: 700px;
+  margin:auto;
+  position: absolute;
+  margin: auto;
+  justify-content: center;
+  overflow: hidden;
+  position:absolute;
+}
+
+#port_row {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.port_img {
+  width: 70%;
+}
+
+#port_row_cont {
+  width: 100%;
+  text-align: center;
+}
+#portfolio_items  {
+  background-color: #d9d9d9;
+  padding:0px;
+}
+
+.preview, .tech, .git {
+  display:inline-block;
+}
+
+#port_foot{
+  border-top:4px solid black;
+  background-color: #818181;
+  width: 100%;
+  padding:0px;
+  margin:0px;
+  margin-top: 10px;
+}
+
+#port_footer  {
+  margin:0px;
+  width:100%;
+  height:65px;
+  margin-top: 3px;
+  padding: 0px;
+}
+
+#foots{
+  padding:0px;
+}
+
+
+
+/*   Buttons   */
+
+
+.buttons {
+  border:none;
+  background-color:rgba(245, 245, 245, 0);
+  color: #363636;
+  text-align: center;
+  font-size: 16px;
+  padding: 10px;
+  padding-top:0px;
+  width: 150px;
+  height:50px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+}
+
+.buttons span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.buttons span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.buttons:hover span {
+  padding-right: 25px;
+}
+
+.buttons:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+
+#footers  {
+  padding:0px;
+}
