@@ -1,5 +1,5 @@
 body {
-background-color: #2D2E2F;
+background-color: black;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
@@ -84,23 +84,45 @@ h2  {
 
 .port_img {
   width: 80%;
+  height: 25vh;
+}
+
+#port_row {
+  text-align: center;
 }
 
 #port_row_cont {
   width: 100%;
   text-align: center;
-  margin-top:150px;
-  justify-content: center;
+  margin-top:50px;
+  padding: 0px;
 }
 #portfolio_items  {
   background-color: #d9d9d9;
   padding:0px;
-  margin:13px;
   margin-bottom:25px;
+  display:inline-block;
+  float:none;
+  margin:13px;
 }
 
 .preview, .tech, .git {
   display:inline-block;
+}
+
+#port-header  {
+  text-align: center;
+}
+
+#port-head  {
+  display: inline-block;
+}
+
+.white  {
+  background-color: white;
+  height: 4px;
+  width: 33%;
+  display: inline-block;
 }
 
 #port_foot{
@@ -123,7 +145,12 @@ h2  {
 
 #foots{
   padding:0px;
-  height: 50px;
+  height: 45px;
+  font-size: 16px;
+}
+
+span{
+  font-size: 16px;
 }
 
 
@@ -152,6 +179,7 @@ h2  {
 
 .buttons span {
   cursor: pointer;
+  font-size: 16px;
   display: inline-block;
   position: relative;
   transition: 0.5s;
@@ -216,4 +244,127 @@ a:active  {
   width:400px;
   text-align: center;
   border: 3px solid rgba(255, 255, 255, .7);
+}
+
+#span{
+  font-size: 8px;
+}
+
+
+
+
+               /*           INDEX         */
+
+#index_main    {
+  height:100vh;
+  width: 100%;
+
+  background-image: url('/images/keyboard.jpg');
+  background-size: cover;
+  background-color: rgba(0, 0, 0, .4);
+  padding-left: 0px;
+  box-shadow: inset 0px 0px 300px 200px #000;
+}
+
+#cover  {
+  height: 100vh;
+  width: 100%;
+  width:inherit;
+  background-color: rgba(0, 0, 0, .45)
+}
+
+#header {
+  background-color: black;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.links  {
+  display: inline-block;
+  padding-bottom: 0px;
+  margin: 5px 30px 5px 30px;
+
+}
+
+#header {
+  margin-top: 40px;
+  background-color: white;
+}
+
+#header>h1 {
+  color: black;
+}
+
+#logo {
+  margin:0 auto;
+  position: relative;
+  padding: 0px;
+  padding-top: 10px;
+  text-align: center;
+  background-color: black;
+  height: 340px;
+}
+
+#logoob{
+  width: 15%;
+  margin: auto;
+  position: relative;
+
+}
+
+#nm  {
+  color: black;
+  font-size: 64px;
+  font-family: 'Raleway', sans-serif;
+  margin-top: 5px;
+  margin-bottom: 5px;
+
+}
+
+#ttl {
+  color: black;
+  font-size: 38px;
+  font-family: 'Raleway', sans-serif;
+}
+
+#name {
+  text-align: center;
+}
+
+.tops {
+  display: inline-block;
+  background-color: white;
+  margin:0px auto;
+}
+#logoimg  {
+  width: 98%;
+  background-color: black;
+}
+
+/*#name {
+  margin-right: 15px;
+  width:35%;
+  padding: 0px 30px 0px 0px;
+
+
+}*/
+
+
+
+/*#title {
+  margin-left: 15px;
+  width: 30%;
+  padding: 10px 200px 10px 30px;
+
+}*/
+
+
+/*#name, #title  {
+  display: inline-block;
+  background-color: white;
+}*/
+
+
+#test1, #test2, #test3 {
+  height: 20vh;
 }
