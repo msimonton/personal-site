@@ -89,13 +89,16 @@ h2  {
 
 #port_row {
   text-align: center;
+  width: 100%;
 }
 
 #port_row_cont {
   width: 100%;
   text-align: center;
-  margin-top:50px;
   padding: 0px;
+  background-color: rgba(255, 255, 255, .4)
+
+
 }
 #portfolio_items  {
   background-color: #d9d9d9;
@@ -104,6 +107,7 @@ h2  {
   display:inline-block;
   float:none;
   margin:13px;
+
 }
 
 .preview, .tech, .git {
@@ -262,13 +266,14 @@ a:active  {
   background-image: url('/images/keyboard.jpg');
   background-size: cover;
   background-color: rgba(0, 0, 0, .4);
-  padding-left: 0px;
+  padding-left: 70px;
+  padding-right: 70px;
   box-shadow: inset 0px 0px 300px 200px #000;
 }
 
 #cover  {
   height: 100vh;
-  width: 100%;
+  width: 100% !important;
   width:inherit;
   background-color: rgba(0, 0, 0, .45)
 }
@@ -277,6 +282,7 @@ a:active  {
   background-color: black;
   text-align: center;
   margin-bottom: 40px;
+  margin-top: 30px;
 }
 
 .links  {
@@ -296,50 +302,115 @@ a:active  {
 }
 
 #logo {
-  margin:0 auto;
-  position: relative;
-  padding: 0px;
+
   padding-top: 10px;
   text-align: center;
   background-color: black;
-  height: 340px;
+  max-height: 340px;
 }
 
-#logoob{
-  width: 15%;
-  margin: auto;
-  position: relative;
 
-}
-
-#nm  {
+#nm, #ttl  {
+  /*position: relative;*/
   color: black;
-  font-size: 64px;
+  margin: 0px;
+  padding: 0px;
+  /*font-size: 64px;*/
   font-family: 'Raleway', sans-serif;
-  margin-top: 5px;
-  margin-bottom: 5px;
+  /*margin-top: 5px;
+  margin-bottom: 5px;*/
 
+}
+
+#title  {
+margin-right: 70px;
+display: none;
 }
 
 #ttl {
+  /*position: relative;*/
   color: black;
-  font-size: 38px;
   font-family: 'Raleway', sans-serif;
 }
 
 #name {
   text-align: center;
+
+}
+
+#name-div{
+  margin-left: 70px;
+  margin-right: 0px;
 }
 
 .tops {
-  display: inline-block;
+  margin: 0px;
+  padding: 15px 0px 15px 0px;
   background-color: white;
-  margin:0px auto;
 }
+
+
 #logoimg  {
-  width: 98%;
+
   background-color: black;
 }
+#logoob {
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  max-width: 150px;
+  /*max-width: 400px;*/
+  margin-left: 0px;
+
+}
+
+.row-xs-flex-center {
+    display:flex;
+    align-items:center;
+}
+@media ( min-width:794px ) {
+    .row-sm-flex-center {
+        display:flex;
+        align-items:center;
+    }
+}
+@media ( min-width: 992px ) {
+    .row-md-flex-center {
+        display:flex;
+        align-items:center;
+    }
+}
+@media ( min-width: 1200px ) {
+    .row-lg-flex-center {
+        display:flex;
+        align-items:center;
+    }
+}
+
+@media ( min-width: 794px) {
+   #logoob {
+     max-width: 250px
+   }
+
+}
+
+@media ( min-width: 800px) {
+  #title  {
+    display: block;
+  }
+
+}
+
+@media ( max-width: 900px) {
+  #name-div {
+    margin-right: 70px;
+  }
+}
+
+
+
+
+
 
 /*#name {
   margin-right: 15px;
@@ -366,5 +437,6 @@ a:active  {
 
 
 #test1, #test2, #test3 {
-  height: 20vh;
+
+  height: 10vh;
 }
