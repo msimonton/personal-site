@@ -1,5 +1,5 @@
 body {
-background-color: #2D2E2F;
+background-color: black;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
@@ -7,100 +7,53 @@ background-color: #2D2E2F;
 
 
 
-/*.container-fluid  {
-  padding-top: 30px;
-  align-content: center;
-}*/
-
-#red {
-  background-color:rgba(255, 0, 0, 0.7);
-  height: 50px;
-  align-items: center;
-}
-
-#black {
-  background-color:#171717;
-  color: white;
-  height: 50px;
-  vertical-align: middle;
-}
-
-#black1 {
-  background-color: #171717;
-  color: white;
-  height: 900px;
-  vertical-align: middle;
-  overflow: hidden;
-  position: absolute;
-}
-
-h1  {
-  color: white;
-}
-
-h2  {
-  text-align: center;
-  margin-top: auto;
-}
-
-#jumbo  {
-  background-color: #171717;
-  height:200px;
-  width: 100%;
-}
-
-#left {
-  color: #171717;
-  height: 100%;
-  width: 40
-}
-
-#circle {
-  background-color: black;
-  border-radius: 50%;
-  width: 700px;
-  height: 700px;
-  margin:auto;
-  position: absolute;
-  margin: auto;
-  display:flex;
-  justify-content: center;
-}
-
-#leftcirc {
-  background-color: black;
-  border-radius: 50%;
-  width: 700px;
-  height: 700px;
-  margin:auto;
-  position: absolute;
-  margin: auto;
-  justify-content: center;
-  overflow: hidden;
-  position:absolute;
-}
-
-
 
 .port_img {
   width: 80%;
+  height: 188px;
+}
+
+#port_row {
+  text-align: center;
+  width: 100%;
 }
 
 #port_row_cont {
   width: 100%;
   text-align: center;
-  margin-top:150px;
-  justify-content: center;
+  padding: 0px;
+  background-color: rgba(255, 255, 255, .4)
+
+
 }
 #portfolio_items  {
   background-color: #d9d9d9;
   padding:0px;
-  margin:13px;
   margin-bottom:25px;
+  display:inline-block;
+  float:none;
+  margin:13px;
+  height: 300px;
+
 }
 
 .preview, .tech, .git {
   display:inline-block;
+}
+
+#port-header  {
+  text-align: center;
+}
+
+#port-head  {
+  display: inline-block;
+}
+
+.white  {
+  background-color: white;
+  height: 4px;
+  width: 33%;
+  display: inline-block;
 }
 
 #port_foot{
@@ -123,7 +76,12 @@ h2  {
 
 #foots{
   padding:0px;
-  height: 50px;
+  height: 45px;
+  font-size: 16px;
+}
+
+span{
+  font-size: 16px;
 }
 
 
@@ -152,6 +110,7 @@ h2  {
 
 .buttons span {
   cursor: pointer;
+  font-size: 16px;
   display: inline-block;
   position: relative;
   transition: 0.5s;
@@ -216,4 +175,8 @@ a:active  {
   width:400px;
   text-align: center;
   border: 3px solid rgba(255, 255, 255, .7);
+}
+
+#span{
+  font-size: 8px;
 }

@@ -1,0 +1,256 @@
+
+#index_main    {
+  margin-top: 50px;
+  height:100vh;
+  width: 100%;
+
+  background-image: url('/images/keyboard.jpg');
+  background-size: cover;
+  background-color: rgba(0, 0, 0, .4);
+  padding-left: 70px;
+  padding-right: 70px;
+  box-shadow: inset 0px 0px 300px 200px #000;
+}
+
+#cover  {
+  height: 100vh;
+  width: 100% !important;
+  width:inherit;
+  background-color: rgba(0, 0, 0, .45)
+}
+
+#header {
+  background-color: black;
+  text-align: center;
+  margin-bottom: 40px;
+  margin-top: 30px;
+
+}
+
+.links  {
+  display: inline-block;
+  padding-bottom: 0px;
+  margin: 5px 30px 5px 30px;
+
+}
+
+#header {
+  /*margin-top: 40px;*/
+  background-color: white;
+}
+
+#header>h1 {
+  color: black;
+}
+
+#logo {
+
+  padding-top: 10px;
+  text-align: center;
+  background-color: black;
+  max-height: 340px;
+}
+
+
+#nm, #ttl  {
+  /*position: relative;*/
+  color: black;
+  margin: 0px;
+  padding: 0px;
+  /*font-size: 64px;*/
+  font-family: 'Raleway', sans-serif;
+  /*margin-top: 5px;
+  margin-bottom: 5px;*/
+
+}
+
+#title  {
+margin-right: 70px;
+display: none;
+}
+
+#ttl {
+  /*position: relative;*/
+  color: black;
+  font-family: 'Raleway', sans-serif;
+}
+
+#name {
+  text-align: center;
+
+}
+
+#name-div{
+  margin-left: 70px;
+  margin-right: 0px;
+}
+
+.tops {
+  margin: 0px;
+  padding: 15px 0px 15px 0px;
+  background-color: white;
+}
+
+
+#logoimg  {
+
+  background-color: black;
+}
+#logoob {
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  max-width: 150px;
+  /*max-width: 400px;*/
+  margin-left: 0px;
+
+}
+
+.row-xs-flex-center {
+    display:flex;
+    align-items:center;
+}
+@media ( min-width:794px ) {
+    .row-sm-flex-center {
+        display:flex;
+        align-items:center;
+    }
+}
+@media ( min-width: 992px ) {
+    .row-md-flex-center {
+        display:flex;
+        align-items:center;
+    }
+}
+@media ( min-width: 1200px ) {
+    .row-lg-flex-center {
+        display:flex;
+        align-items:center;
+    }
+}
+
+@media ( min-width: 794px) {
+   #logoob {
+     max-width: 250px
+   }
+
+}
+
+@media ( min-width: 800px) {
+  #title  {
+    display: block;
+  }
+
+}
+
+@media ( max-width: 900px) {
+  #name-div {
+    margin-right: 70px;
+  }
+}
+
+
+
+
+
+
+/*#name {
+  margin-right: 15px;
+  width:35%;
+  padding: 0px 30px 0px 0px;
+
+
+}*/
+
+
+
+/*#title {
+  margin-left: 15px;
+  width: 30%;
+  padding: 10px 200px 10px 30px;
+
+}*/
+
+
+/*#name, #title  {
+  display: inline-block;
+  background-color: white;
+}*/
+
+
+
+
+
+
+.menu {
+
+    background:white;
+    color:black;
+    height:50px;
+    z-index: +1;
+
+    width:100%;
+}
+.content {
+    margin-top:20px;
+    z-index: -1;
+
+}
+.menu-padding {
+    padding-top:70px;
+    padding-bottom:70px;
+}
+.content p {
+    margin-bottom:20px;
+}
+.sticky {
+    position:fixed;
+    top:0;
+    margin-bottom: 20px;
+}
+.nav {
+  text-align: center;
+}
+
+.nav>li {
+  display: inline-block;
+}
+ul>li {
+  display: inline-block;
+}
+
+.links  {
+  display: inline-block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#about-me {
+  width: 75%;
+  margin: auto;
+  margin-top: 100px;
+}
+
+
+#about{
+  color: black;
+  font-size: 24px;
+  background-color:rgba(217, 217, 217, .6);
+}
+
+h3  {
+  color: white;
+}
