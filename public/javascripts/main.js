@@ -37,14 +37,28 @@ $(document).ready(function(){
             if ($(window).scrollTop() >= origOffsetY) {
                 $('.menu').addClass('sticky');
                 $('.content').addClass('menu-padding');
+                $('#marg').css('display','block');
+                // $('index_main').css('margin-top','110px');
+
             } else {
                 $('.menu').removeClass('sticky');
                 $('.content').removeClass('menu-padding');
+                $('#marg').css('display','none');
+                // $('index_main').css('margin-top','50px');
+
+
             }
 
 
         }
 
         document.onscroll = scroll;
+
+
+        function scroll_to(div){
+	$('html, body').animate({
+		scrollTop: $("mydiv").offset().top
+	},1000);
+}
 
 });
