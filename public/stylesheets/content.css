@@ -4,12 +4,13 @@
   height:100vh;
   width: 100%;
 
-  background-image: url('/images/keyboard.jpg');
+  /*background-image: url('/images/keyboard.jpg');
   background-size: cover;
   background-color: rgba(0, 0, 0, .4);
   padding-left: 70px;
   padding-right: 70px;
   box-shadow: inset 0px 0px 300px 200px #000;
+  background-repeat: no-repeat;*/
 }
 
 #cover  {
@@ -186,22 +187,36 @@ display: none;
 
     background:white;
     color:black;
-    height:50px;
+    height:65px;
     z-index: +1;
 
     width:100%;
 }
 .content {
     margin-top:20px;
-    z-index: -1;
+
 
 }
 .menu-padding {
     padding-top:70px;
     padding-bottom:70px;
+    margin-top: 70px !important;
 }
+
+#marg {
+  height: 60px;
+  width: 100%;
+  display: none;
+}
+
+.space  {
+  height: 140px;
+  width: 100%;
+  display: block;
+}
+
 .content p {
-    margin-bottom:20px;
+    /*margin-bottom:20px;*/
 }
 .sticky {
     position:fixed;
@@ -247,10 +262,23 @@ ul>li {
 
 #about{
   color: black;
-  font-size: 24px;
-  background-color:rgba(217, 217, 217, .6);
+  font-size: 20px;
+  background-color:rgba(217, 217, 217, .7);
+  padding: 30px;
+  border-radius: 5px;
 }
 
 h3  {
   color: white;
+}
+
+
+#back {
+    background-image: url('/images/keyboard.jpg');
+    background-size: cover;
+    background-color: rgba(0, 0, 0, .4);
+    padding-left: 70px;
+    padding-right: 70px;
+    box-shadow: inset 0px 0px 300px 200px #000;
+    background-repeat: no-repeat;
 }

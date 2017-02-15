@@ -15,14 +15,14 @@ background-color: black;
 
 #port_row {
   text-align: center;
-  width: 100%;
+
 }
 
 #port_row_cont {
-  width: 100%;
+  width: 100% !important;
   text-align: center;
   padding: 0px;
-  background-color: rgba(255, 255, 255, .4)
+  background-color: rgba(0, 0, 0, .4)
 
 
 }
@@ -43,10 +43,14 @@ background-color: black;
 
 #port-header  {
   text-align: center;
+  background-color: rgba(0, 0, 0, 1);
+  margin-bottom: 40px;
 }
 
 #port-head  {
   display: inline-block;
+  color: white;
+  background: none;
 }
 
 .white  {
@@ -179,4 +183,85 @@ a:active  {
 
 #span{
   font-size: 8px;
+}
+
+
+
+
+
+
+
+
+
+
+            /*    Tech Logos          */
+
+
+#tech-logos {
+  width: 100%;
+  text-align: center;
+  height: 150px;
+
+}
+
+#logo-wrap  {
+  width: 60%;
+  margin: auto;
+}
+
+.logo-tech  {
+  width: 100px;
+  height: 100px;
+  padding: 30px;
+}
+
+#js, #html5, #angular, #css, #postgres, #node {
+  display: inline-block;
+  margin-top: 30px;
+  margin: 10px;
+}
+
+#js {
+  background-image: url('../images/javascript.png');
+  background-size: cover;
+}
+
+#html5 {
+  background-image: url('../images/html5.png');
+  background-size: cover;
+}
+
+#angular {
+  background-image: url('../images/angular.png');
+  background-size: cover;
+}
+#css {
+  background-image: url('../images/css.png');
+  background-size: cover;
+}
+#postgres {
+  background-image: url('../images/postgres.png');
+  background-size: cover;
+}
+#node {
+  background-image: url('../images/node.png');
+  background-size: cover;
+}
+
+
+#footer  {
+
+
+  background-color: white;
+  height: 80px;
+
+}
+
+.contact {
+  font-size: 70px;
+}
+
+#contacts {
+  color: white;
+  padding:10px;
 }
