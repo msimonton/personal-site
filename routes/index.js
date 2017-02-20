@@ -10,7 +10,5 @@ router.get('/projects', function(req, res, next)  {
   res.render('projets')
 })
 
-router.get('/portfolio', function(req,res,next) {
-  res.render('portfolio')
-})
+
 module.exports = router;

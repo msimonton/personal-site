@@ -187,7 +187,7 @@ display: none;
 
     background:white;
     color:black;
-    height:65px;
+    height:45px;
     z-index: +1;
 
     width:100%;
@@ -204,7 +204,7 @@ display: none;
 }
 
 #marg {
-  height: 60px;
+  height: 45px;
   width: 100%;
   display: none;
 }
@@ -225,6 +225,7 @@ display: none;
 }
 .nav {
   text-align: center;
+  height: 45px;
 }
 
 .nav>li {
@@ -236,9 +237,22 @@ ul>li {
 
 .links  {
   display: inline-block;
+  font-size: 22px;
 }
 
+.nav>li>a:hover {
+  background-color: rgba(0, 0, 0, .01);
+  cursor: pointer;
 
+}
+
+#portfolio-scroll:hover {
+  cursor: pointer;
+}
+
+#contact-scroll:hover {
+  cursor: pointer;
+}
 
 
 
@@ -261,9 +275,9 @@ ul>li {
 
 
 #about{
-  color: black;
+  color: white;
   font-size: 20px;
-  background-color:rgba(217, 217, 217, .7);
+  background-color:rgba(0, 0, 0, .6);
   padding: 30px;
   border-radius: 5px;
 }

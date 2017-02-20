@@ -207,11 +207,16 @@ a:active  {
 #logo-wrap  {
   width: 60%;
   margin: auto;
+  margin-top: 50px;
+}
+
+#logo-wrap>h2 {
+  color: white;
 }
 
 .logo-tech  {
-  width: 100px;
-  height: 100px;
+  width: 80px;
+  height: 80px;
   padding: 30px;
 }
 
@@ -253,12 +258,13 @@ a:active  {
 
 
   background-color: white;
-  height: 80px;
+  height: 70px;
 
 }
 
 .contact {
-  font-size: 70px;
+  font-size: 50px;
+  padding: 10px;
 }
 
 #contacts {
