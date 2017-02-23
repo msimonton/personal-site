@@ -6,7 +6,11 @@ background-color: black;
 
 
 
+#port_head>h2 {
+  color: white;
+  font-family: 'Raleway', sans-serif;
 
+}
 
 .port_img {
   width: 80%;
@@ -28,7 +32,7 @@ background-color: black;
 
 }
 #portfolio_items  {
-  background-color: #d9d9d9;
+  background-color: transparent;
   padding:0px;
   margin-bottom:25px;
 
@@ -36,6 +40,7 @@ background-color: black;
   margin:13px;
   height: 300px;
   width: 325px;
+  border: 2px solid rgb(196, 196, 196);
 
 }
 
@@ -68,12 +73,12 @@ background-color: black;
 
 #port_foot{
   border-top:4px solid black;
-  background-color: #818181;
+  background-color: white;
   width: 100%;
   padding:0px;
   margin:0px;
   margin-top: 6px;
-  height: 30px;
+  height: 40px;
 }
 
 #port_footer  {
@@ -90,6 +95,8 @@ background-color: black;
   height: 30px;
   font-size: 16px;
 }
+
+.test   {}
 
 span{
   font-size: 14px;
@@ -117,6 +124,13 @@ span{
   margin-right: 5px;
   border-left: 2px solid black;
   border-right: 2px solid black;
+  font-family: 'Raleway', sans-serif;
+
+
+}
+
+.tech-pop {
+  font-family: 'Raleway', sans-serif;
 }
 
 .buttons span {
@@ -291,7 +305,7 @@ a:active  {
 
 #red  {
   height:300px;
-  width: 300px;
+  width:;
   background-color: red;
   margin: 10px;
 }
