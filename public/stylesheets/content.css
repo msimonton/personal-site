@@ -226,6 +226,7 @@ display: none;
 .nav {
   text-align: center;
   height: 45px;
+  padding-top: 0px;
 }
 
 .nav>li {
@@ -238,6 +239,9 @@ ul>li {
 .links  {
   display: inline-block;
   font-size: 22px;
+  margin-top: 0px;
+  padding: 6px;
+  padding-top: 10px;
 }
 
 .nav>li>a:hover {
@@ -246,13 +250,45 @@ ul>li {
 
 }
 
+#portfolio-scroll, #contact-scroll  {
+  transition: .4s;
+  height: 45px;
+  margin-top: 0px;
+}
+
 #portfolio-scroll:hover {
   cursor: pointer;
+  box-shadow: inset 0 0 20px rgba(0, 0, 0, .4);
 }
 
 #contact-scroll:hover {
   cursor: pointer;
+  box-shadow: inset 0 0 20px rgba(0, 0, 0, .6);
+
 }
+#smlogoimg{
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+#smlogoimg  {
+  height: 44px;
+  margin-bottom: 3px;
+  padding: 0px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#smlogoob {
+  height: 44px;
+  margin-top: 0px;
+  padding: 0px;
+}
+
+#smlogoimg:hover  {
+  cursor: pointer;
+}
+
+
 
 
 
