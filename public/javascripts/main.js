@@ -18,6 +18,13 @@ $("#contact-scroll").click(function(event) {
         'slow');
 });
 
+$("#smlogoimg").click(function(event) {
+  event.preventDefault()
+    $('html,body').animate({
+        scrollTop: $("#logo").offset().top},
+        'slow');
+});
+
 $('[data-toggle="popover"]').popover();
 
 
@@ -33,9 +40,11 @@ $(window).scroll(function(){
   $(window).scroll(function(){
       $("#logoimg").css("opacity", 1 - $(window).scrollTop() / 350);
     });
+
     $(window).scroll(function(){
-        $("#index_main").css("opacity", 1 + $(window).scrollBottom() / 350);
+        $("#smlogoimg").css("opacity", 0 + $(window).scrollTop() / 400);
       });
+
 
     $('#nav').affix({
           offset: {
@@ -81,11 +90,5 @@ $(window).scroll(function(){
 
         document.onscroll = scroll;
 
-
-        function scroll_to(div){
-	$('html, body').animate({
-		scrollTop: $("mydiv").offset().top
-	},1000);
-}
 
 });
