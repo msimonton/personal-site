@@ -327,8 +327,7 @@ h3  {
     background-image: url('/images/keyboard.jpg');
     background-size: cover;
     background-color: rgba(0, 0, 0, .4);
-    padding-left: 70px;
-    padding-right: 70px;
+
     box-shadow: inset 0px 0px 300px 200px #000;
     background-repeat: no-repeat;
 }
