@@ -1,0 +1,139 @@
+#barm {
+  height: 50px;
+  width: 100px;
+  background-color: blue;
+}
+
+
+
+#port-contain {
+  width: 100%;
+}
+
+#portfolio-row  {
+  width: 100%;
+  margin: auto;
+}
+
+
+.port-item  {
+
+  padding: 0px;
+  border: 2px solid white;
+  display: inline-block;
+  margin: 50px 20px 0px 20px;
+  max-width: 500px;
+  text-align: center;
+
+}
+
+
+.linker {
+  background-color: white;
+  width: 100%;
+}
+
+
+.port-links {
+  display: inline-block;
+  background-color: white;
+}
+
+.portfolio-pics {
+ border: 1px solid white;
+ background-b
+}
+
+.cosummit-pic {
+  background-image: url('/images/cosummit.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 300px;
+  min-width: 200px;
+  height: 200px;
+  margin:auto;
+  background-color: grey;
+
+}
+
+.farmshare-pic {
+  background-image: url('/images/farmshare.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 300px;
+  min-width: 200px;
+  height: 200px;
+  margin:auto;
+  background-color: grey;
+
+}
+
+.ivolunteer-pic {
+  background-image: url('/images/ivolunteer.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 300px;
+  min-width: 200px;
+  height: 200px;
+  margin:auto;
+  background-color: grey;
+
+}
+
+.madlyrics-pic {
+  background-image: url('/images/mad-lyrics.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 300px;
+  min-width: 200px;
+  height: 200px;
+  margin:auto;
+  background-color: grey;
+
+}
+
+.galv-personnel-pic {
+  background-image: url('/images/galvanize-personel.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 300px;
+  min-width: 200px;
+  height: 200px;
+  margin:auto;
+  background-color: grey;
+
+}
+
+.liz-pic {
+  background-image: url('/images/photo-art.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 300px;
+  min-width: 200px;
+  height: 200px;
+  margin:auto;
+  background-color: grey;
+
+}
+
+.heads  {
+  color:white;
+  padding: 10px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.galv {
+  padding: 0px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.hat  {
+  margin-bottom: 50px;
+}

@@ -31,6 +31,9 @@ background-color: black;
 
 
 }
+
+
+
 #portfolio_items  {
   background-color: transparent;
   padding:0px;
@@ -41,7 +44,12 @@ background-color: black;
   height: 300px;
   width: 325px;
   border: 2px solid rgb(196, 196, 196);
+  display: inline-block;
 
+}
+
+.portfolio-single {
+  display: inline-block;
 }
 
 .preview, .tech, .git {
