@@ -288,7 +288,18 @@ ul>li {
   cursor: pointer;
 }
 
+#logo-wrap  {
+  text-align: center;
 
+}
+#contacts {
+  text-align: center;
+
+}
+
+#footer {
+  text-align: center;
+}
 
 
 
@@ -330,4 +341,11 @@ h3  {
 
     box-shadow: inset 0px 0px 300px 200px #000;
     background-repeat: no-repeat;
+}
+
+#bite {
+  height: 300px;
+  width: 300px;
+  display: inline-block;
+  background-color: blue;
 }
